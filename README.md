@@ -10,5 +10,8 @@ Final project of EI339
 + Data augmentation
 
 
+## Original
+mAP 77.43
+
 ## Attention
-+ 在extras每一个conv前添加non local block， mAP 77.63。
++ 在extras每一个conv前添加non local block， mAP 77.64。
