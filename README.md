@@ -2,7 +2,7 @@
 Final project of EI339
 
 ## TODO
-+ ~~计算小物体的标签 ~~具体标准未统一
++ ~~计算小物体的标签~~ 具体标准未统一
 + ~~增加attention~~
 + 增加anchor box数量
 + 增加反卷积层
