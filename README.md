@@ -51,6 +51,14 @@ Here is performance comparison in our experiment.
 where **SSD-ab, SSD-aug, SSD-nlb** denote SSD with added anchor boxes,  SSD with small object augmentatio, SSD with non-local blocks respectively.
 
 ## Visualization 
+Small object augmentation:
+![image](ssd/imgs/air.jpg)
+![image](ssd/imgs/boat.jpg)
+Predicted bounding box of SSD baseline:
+![image](ssd/imgs/img1.jpg)
+![image](ssd/imgs/img2.jpg)
+
+
 
 
 
