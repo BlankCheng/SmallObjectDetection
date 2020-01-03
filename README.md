@@ -31,8 +31,26 @@ Evaluation on small objects:
 python ssd/eval_small.py
 ```
 
+To visualize bounding box on VOC2007 test, `ssd/JPEGImages/` contains VOC2007 test images:
+```
+python ssd/viz_bb.py
+```
 
 ## Performance
-+ 在extras每一个conv前添加non local block， mAP 77.64。
-+ 在multibox每一个conv前添加non local block, mAP 77.98。
+Here is performance comparison in our experiment.
+| Method | mAP | mAP(small) | mREC | mREC(small)| FPS |
+| :-----| :---- | :---- | :-----| :---- | :---- |
+| SSD | 77.3 | 52.6 | 93.4 | 83.4 | 23 |
+| SSD-ab | 77.7 | 53.2 | 92.9 | 82.3 | **24** |
+| SSD-aug | 77.1 | 52.5 | 93.1 | 82.2 | 14 |
+| SSD-nlb | 78.0 | 52.9 | 93.8 | 82.8 | **24** |
+| FSSD | 77.6 | 56.8 | 92.1 | 82.5 | 21 |
+| RFB | **80.9** | **59.8** | **95.6** | **88.2** | 7 |
+
+
+
+
+
+
+
 
