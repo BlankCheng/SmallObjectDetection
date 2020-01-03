@@ -10,7 +10,7 @@ reload(sys)
 # sys.setdefaultencoding('utf8')
 
 COLORS = ['r', 'g', 'b', 'c', 'm', 'y', 'b', 'w']
-root = '../../VOCdevkit'
+root = './'
 prediction_dir = 'predictions'
 prediction_pkl = 'predictions_rfb.pkl'
 method = 'rfb'
