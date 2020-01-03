@@ -38,6 +38,7 @@ python ssd/viz_bb.py
 
 ## Performance
 Here is performance comparison in our experiment.
+
 | Method | mAP | mAP(small) | mREC | mREC(small)| FPS |
 | :-----| :---- | :---- | :-----| :---- | :---- |
 | SSD | 77.3 | 52.6 | 93.4 | 83.4 | 23 |
@@ -46,6 +47,11 @@ Here is performance comparison in our experiment.
 | SSD-nlb | 78.0 | 52.9 | 93.8 | 82.8 | **24** |
 | FSSD | 77.6 | 56.8 | 92.1 | 82.5 | 21 |
 | RFB | **80.9** | **59.8** | **95.6** | **88.2** | 7 |
+
+where **SSD-ab, SSD-aug, SSD-nlb** denote SSD with added anchor boxes,  SSD with small object augmentatio, SSD with non-local blocks respectively.
+
+## Visualization 
+
 
 
 
