@@ -13,8 +13,24 @@ This is our final project of EI339 on small object detection. Our implementation
 
 ## Usage
 To train ssd with added anchor boxes and non-local block:
-```python ssd/train.py ```
-To
+```
+python ssd/train.py
+```
+To train fssd or rfb:
+```
+python ssds.pytorch/train.py --cfg=ssds.pytorch/experiments/cfgs/fssd_vgg16_train_voc.yml
+python ssds.pytorch/train.py --cfg=ssds.pytorch/experiments/cfgs/rfb_resnet50_train_voc.yml
+```
+
+To evaluate ssd with added anchor boxes and non-local block:
+```
+python ssd/eval.py
+```
+Evaluation on small objects:
+```
+python ssd/eval_small.py
+```
+
 
 ## Performance
 + 在extras每一个conv前添加non local block， mAP 77.64。
