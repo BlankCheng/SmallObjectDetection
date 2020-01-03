@@ -1,4 +1,4 @@
-# SmallObjectDetection
+# Small Object Detection Based on SSD Pipeline
 
 ## Introduction
 This is our final project of EI339 on small object detection. Our implementation references [ssd.pytorch](https://github.com/amdegroot/ssd.pytorch) and [ssds.pytorch](https://github.com/ShuangXieIrene/ssds.pytorch). Several modifications on SSD are implemented:
@@ -10,7 +10,6 @@ This is our final project of EI339 on small object detection. Our implementation
 + [Receptive Field Block](https://arxiv.org/abs/1711.07767)
 
 
-
 ## Usage
 To train ssd with added anchor boxes and non-local block:
 ```
@@ -19,6 +18,7 @@ python ssd/train.py
 To train fssd or rfb:
 ```
 python ssds.pytorch/train.py --cfg=ssds.pytorch/experiments/cfgs/fssd_vgg16_train_voc.yml
+
 python ssds.pytorch/train.py --cfg=ssds.pytorch/experiments/cfgs/rfb_resnet50_train_voc.yml
 ```
 
@@ -36,6 +36,7 @@ To visualize bounding box on VOC2007 test, `ssd/JPEGImages/` contains VOC2007 te
 python ssd/viz_bb.py
 ```
 
+
 ## Performance
 Here is performance comparison in our experiment.
 
@@ -50,7 +51,8 @@ Here is performance comparison in our experiment.
 
 where **SSD-ab, SSD-aug, SSD-nlb** denote SSD with added anchor boxes,  SSD with small object augmentatio, SSD with non-local blocks respectively.
 
-## Visualization 
+
+## Visualization
 Small object augmentation:
 
 ![image](ssd/imgs/air.jpg) ![image](ssd/imgs/boat.jpg)
@@ -58,6 +60,11 @@ Small object augmentation:
 Predicted bounding box of SSD baseline:
 
 ![image](ssd/imgs/img1.png) ![image](ssd/imgs/img2.png)
+
+
+## TODO
++ Fix bug in deconvolutional layer
++ Replace VGG with ResNet
 
 
 
