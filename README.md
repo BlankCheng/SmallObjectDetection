@@ -49,7 +49,7 @@ Here is performance comparison in our experiment.
 | FSSD | 77.6 | 56.8 | 92.1 | 82.5 | 21 |
 | RFB | **80.9** | **59.8** | **95.6** | **88.2** | 7 |
 
-where **SSD-ab, SSD-aug, SSD-nlb** denote SSD with added anchor boxes,  SSD with small object augmentatio, SSD with non-local blocks respectively.
+where **SSD-ab, SSD-aug, SSD-nlb** denote SSD with added anchor boxes,  SSD with small object augmentatio, SSD with non-local blocks respectively. All trained models are available on https://drive.google.com/drive/folders/15Dm4MefcpbRkDMVT1ZXtmL5Ea6v4fUTZ?usp=sharing.
 
 
 ## Visualization
