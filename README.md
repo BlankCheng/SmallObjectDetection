@@ -52,8 +52,11 @@ where **SSD-ab, SSD-aug, SSD-nlb** denote SSD with added anchor boxes,  SSD with
 
 ## Visualization 
 Small object augmentation:
+
 ![image](ssd/imgs/air.jpg) ![image](ssd/imgs/boat.jpg)
+
 Predicted bounding box of SSD baseline:
+
 ![image](ssd/imgs/img1.png) ![image](ssd/imgs/img2.png)
 
 
